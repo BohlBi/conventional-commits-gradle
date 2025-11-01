@@ -1,5 +1,3 @@
-import java.io.File
-
 object CommitMessageValidator {
     // Matches: type(scope)?: subject oder type!: subject - type aus Liste,
     // scope optional in Klammern,
