@@ -23,7 +23,49 @@ tasks.test {
 }
 
 tasks.register("showVersion") {
+    group = "versioning"
+    description = "Displays the current project version"
     doLast {
         println("Project version: $version")
     }
+}
+
+tasks.register("installGitHooks") {
+    group = "git"
+    description = "Installs Git hooks for commit message validation"
+    doLast {
+        GitHooksInstaller.install(project.projectDir)
+    }
+}
+
+tasks.register("validateCommitMessage") {
+    group = "git"
+    description = "Validates commit message against Conventional Commits specification"
+    doLast {
+        val messageFile = project.findProperty("message-file") as String?
+
+        if (messageFile == null) {
+            println("No message file provided")
+            return@doLast
+        }
+
+        val file = File(messageFile)
+        if (!file.exists()) {
+            println("Message file not found: $messageFile")
+            return@doLast
+        }
+
+        val commitMessage = file.readText().trim()
+        val result = CommitMessageValidator.validate(commitMessage)
+
+        println(result.message)
+
+        if (!result.isValid) {
+            throw GradleException("Commit message validation failed")
+        }
+    }
+}
+
+tasks.named("build") {
+    dependsOn("installGitHooks")
 }
