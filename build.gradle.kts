@@ -1,9 +1,12 @@
 plugins {
     id("java")
+    id("com.palantir.git-version") version "4.1.0"
 }
 
 group = "org.example"
-version = "0.0.1"
+
+val gitVersion: groovy.lang.Closure<String> by extra
+version = gitVersion().removePrefix("v")
 
 repositories {
     mavenCentral()
@@ -17,4 +20,10 @@ dependencies {
 
 tasks.test {
     useJUnitPlatform()
+}
+
+tasks.register("showVersion") {
+    doLast {
+        println("Project version: $version")
+    }
 }
