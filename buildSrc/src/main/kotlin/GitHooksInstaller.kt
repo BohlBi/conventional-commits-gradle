@@ -41,11 +41,11 @@ object GitHooksInstaller {
     private fun getHookContent(): String {
         return """
             #!/bin/sh
-            
+
             COMMIT_MSG_FILE=${'$'}1
-            
-            ./gradlew validateCommitMessage --message-file="${'$'}COMMIT_MSG_FILE" --quiet
-            
+
+            ./gradlew validateCommitMessage -Pmessage-file="${'$'}COMMIT_MSG_FILE" --quiet
+
             exit ${'$'}?
         """.trimIndent()
     }

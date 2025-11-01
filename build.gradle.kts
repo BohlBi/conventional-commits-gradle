@@ -33,6 +33,7 @@ tasks.register("showVersion") {
 tasks.register("installGitHooks") {
     group = "git"
     description = "Installs Git hooks for commit message validation"
+    outputs.upToDateWhen { false }
     doLast {
         GitHooksInstaller.install(project.projectDir)
     }
