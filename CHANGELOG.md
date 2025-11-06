@@ -1,3 +1,9 @@
+## [1.2.2](https://github.com/BohlBi/conventional-commits-gradle/compare/v1.2.1...v1.2.2) (2025-11-06)
+
+### Bug Fixes
+
+* use TAP instead of GAT ([9bd189b](https://github.com/BohlBi/conventional-commits-gradle/commit/9bd189b1e6974b86c262b1f622bbaeb3afaa7de8))
+
 ## [1.2.1](https://github.com/BohlBi/conventional-commits-gradle/compare/v1.2.0...v1.2.1) (2025-11-06)
 
 ### Bug Fixes
