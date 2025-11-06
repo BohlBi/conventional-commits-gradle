@@ -1,3 +1,9 @@
+## [1.2.4](https://github.com/BohlBi/conventional-commits-gradle/compare/v1.2.3...v1.2.4) (2025-11-06)
+
+### Bug Fixes
+
+* use cycjimmy release action ([28c10dd](https://github.com/BohlBi/conventional-commits-gradle/commit/28c10ddcc406ef9b34fd2bfb97abfc2fc7fbf3f7))
+
 ## [1.2.2](https://github.com/BohlBi/conventional-commits-gradle/compare/v1.2.1...v1.2.2) (2025-11-06)
 
 ### Bug Fixes
