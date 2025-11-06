@@ -1,3 +1,9 @@
+## [1.2.5](https://github.com/BohlBi/conventional-commits-gradle/compare/v1.2.4...v1.2.5) (2025-11-06)
+
+### Bug Fixes
+
+* test regex ([e5bdb9b](https://github.com/BohlBi/conventional-commits-gradle/commit/e5bdb9bb6b696436425ed3567991d9f15425d333))
+
 ## [1.2.4](https://github.com/BohlBi/conventional-commits-gradle/compare/v1.2.3...v1.2.4) (2025-11-06)
 
 ### Bug Fixes
