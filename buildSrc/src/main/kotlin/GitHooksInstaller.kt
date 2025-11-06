@@ -12,6 +12,7 @@ object GitHooksInstaller {
         val hooksDir = File(gitDir, "hooks")
         hooksDir.mkdirs()
 
+
         if (isHookUpToDate(hooksDir)) {
             return
         }
