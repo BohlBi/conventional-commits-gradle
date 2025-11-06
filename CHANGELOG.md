@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/BohlBi/conventional-commits-gradle/compare/v1.2.0...v1.2.1) (2025-11-06)
+
+### Bug Fixes
+
+* asdasd ([bdfb33c](https://github.com/BohlBi/conventional-commits-gradle/commit/bdfb33cafa2520d7d24dbd8bd1c28fad9b521b5f))
+* neue version stelle 2 ([4e068aa](https://github.com/BohlBi/conventional-commits-gradle/commit/4e068aa5e45b0d431ac8e56fcbb42acbb5a5d2e4))
+
 ## [1.2.0](https://github.com/BohlBi/conventional-commits-gradle/compare/v1.1.0...v1.2.0) (2025-11-01)
 
 ### Features
