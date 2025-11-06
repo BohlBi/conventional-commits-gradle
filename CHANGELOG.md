@@ -1,3 +1,9 @@
+## [1.2.6](https://github.com/BohlBi/conventional-commits-gradle/compare/v1.2.5...v1.2.6) (2025-11-06)
+
+### Bug Fixes
+
+* commit über PAT ([0fd922b](https://github.com/BohlBi/conventional-commits-gradle/commit/0fd922bde424c42b3542c67dd80058dd84ef2276))
+
 ## [1.2.5](https://github.com/BohlBi/conventional-commits-gradle/compare/v1.2.4...v1.2.5) (2025-11-06)
 
 ### Bug Fixes
