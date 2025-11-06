@@ -1,3 +1,9 @@
+## [1.2.8](https://github.com/BohlBi/conventional-commits-gradle/compare/v1.2.7...v1.2.8) (2025-11-06)
+
+### Bug Fixes
+
+* remove skip ([80bd580](https://github.com/BohlBi/conventional-commits-gradle/commit/80bd58032c9cf4d57aae8bd9e93f607c25f21a8b))
+
 ## [1.2.7](https://github.com/BohlBi/conventional-commits-gradle/compare/v1.2.6...v1.2.7) (2025-11-06)
 
 ### Bug Fixes
